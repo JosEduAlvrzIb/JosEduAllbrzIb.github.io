@@ -136,7 +136,7 @@
         border-color: black;
     }
     .BtnInfoEng{
-        background-image: url('Pictures/UnitedStateFlag.jpg');
+        background-image: url('Pictures/UnitedStateFlag.jpg'); 
         background-size: 100px 70px;
         width: 100px;
         height: 70px;
