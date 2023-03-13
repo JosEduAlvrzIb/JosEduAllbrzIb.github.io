@@ -37,7 +37,7 @@ const OnScrollDivs = () => {
     if (document.body.scrollTop > 1400) {
         document.getElementById("ContainerExperience").className ="slideUp divContainerExperience";
     }
-    if (document.body.scrollTop > 1900) {
+    if (document.body.scrollTop > 1600) {
         document.getElementById("ContainerCertificates").className ="slideUp divContainerCertificates";
     }
 }
