@@ -28,16 +28,16 @@ const OpenSocialMedia = () => {
 };
 
 const OnScrollDivs = () => {
-    if (document.body.scrollTop > 50) {
+    if (document.body.scrollTop => 50) {
         document.getElementById("ContainerInfo").className ="slideUp divContainerInfo";
     }
-    if (document.body.scrollTop > 1000) {
+    if (document.body.scrollTop => 1000) {
         document.getElementById("ContainerEducation").className ="slideUp divContainerEducation";
     }
-    if (document.body.scrollTop > 1400) {
+    if (document.body.scrollTop => 1400) {
         document.getElementById("ContainerExperience").className ="slideUp divContainerExperience";
     }
-    if (document.body.scrollTop > 1450) {
+    if (document.body.scrollTop => 1400) {
         document.getElementById("ContainerCertificates").className ="slideUp divContainerCertificates";
     }
 }
