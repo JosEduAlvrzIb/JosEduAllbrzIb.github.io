@@ -187,7 +187,7 @@ li {
     display: flex;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
-    width: calc(150px * 20);
+    width: calc(150px * 24);
 }
 .DivSliders .Slide {
     width: 150px;
