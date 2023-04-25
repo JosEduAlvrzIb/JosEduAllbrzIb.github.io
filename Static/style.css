@@ -185,9 +185,9 @@ li {
 }
 .DivSliders .DivSliderTrack{
     display: flex;
-    animation: scroll 20s linear infinite;
-    -webkit-animation: scroll 20s linear infinite;
-    width: calc(100px * 12);
+    animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+    width: calc(100px * 24);
 }
 .DivSliders .Slide {
     width: 100px;
