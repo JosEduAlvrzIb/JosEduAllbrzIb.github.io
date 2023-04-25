@@ -187,10 +187,10 @@ li {
     display: flex;
     animation: scroll 25s linear infinite;
     -webkit-animation: scroll 25s linear infinite;
-    width: calc(160px * 24);
+    width: calc(150px * 20);
 }
 .DivSliders .Slide {
-    width: 200px;
+    width: 150px;
 }
 .DivSliders .Slide img{
     width: 70px;
@@ -202,8 +202,8 @@ li {
         transform: translateX(0);
     }
     100%{
-        -webkit-animation: translateX(calc(-200px * 12));
-        transform: translateX(calc(-200px * 12));
+        -webkit-animation: translateX(calc(-150px * 12));
+        transform: translateX(calc(-150px * 12));
     }
 }
 .DivBtnCv{
