@@ -1,0 +1,218 @@
+body{
+    background-color: #fff;
+    margin: 0;
+}
+.HdrRegister{
+    background-color: #eee;
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.TxtHdr{
+    width: 60%;
+    padding: 10px 15px;
+}
+.BtnHdr{
+    width: 40%;
+    padding: 10px 15px;
+}
+.BtnBackIndex{
+    font-family: 'Rufina';
+    background-color: #247;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    width: 100%;
+    font-size: large;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+.BtnBackIndex:hover{
+    background-color: #00A373;
+    box-shadow: 5px 5px 5px rgba(0, 163, 115, 0.3);
+    transition: 1s ease;
+}
+.LblsForms{
+    font-family: 'Rufina';
+    padding: 10px 15px;
+    background-color: #257;
+    color:white;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    border-left: 5px #810000 solid;
+    border-top: 5px #810000 solid;
+}
+.InputForms{
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+.LblsFormsSelect{
+    font-family: 'Rufina';
+    background-color: #257; 
+    width: 150px;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    border-left: 5px #810000 solid;
+    border-top: 5px #810000 solid;
+}
+.SelectForms{
+    font-family: 'Rufina';
+    width: 170px;
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+.BtnSubmitForm{
+    font-family: 'Rufina';
+    background-color: #1A26FF;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px
+}
+.BtnSubmitForm:hover{
+    content: "Enviar";
+    background-color: #0008A0;
+    color: #fff;
+    margin-left: 30px;
+    transition: 1s ease;
+}
+.BtnFilterSell{
+    font-family: 'Rufina';
+    background-color: #0c4300;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px
+}
+.BtnFilterSell:hover{
+    content: "Enviar";
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgb(255, 0, 0);
+    transition: 1s ease;
+}
+.TitleForms{
+    font-family: 'Rufina';
+    width: 250px;
+    color: white;
+    background-color: #247;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    border-left: 5px #810000 solid;
+    border-top: 5px #810000 solid;
+    border-radius: 16px;
+}
+.FormRegister{
+    margin: 10px;
+}
+.DivForm{
+    margin: 10px 0px 10px 0px;
+    background-color: #eee;
+    border-radius: 16px;
+    border: 5px #00A884 solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/Form.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.DivTableUser{
+    margin: 10px 0px 10px 0px;
+    background-color: #eee;
+    border-radius: 16px;
+    border: 5px #00A884 solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.TitleTable{
+    font-family: 'Rufina';
+    width: 250px;
+    color: white;
+    background-color: #247;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    border-left: 5px #810000 solid;
+    border-top: 5px #810000 solid;
+    border-radius: 16px;
+}
+.DivConTableUser{
+    margin: 10px 2px 10px 2px;
+}
+.TableUsers{
+    width: 100%;
+    font-family: 'Rufina';
+    border: solid 2px black;
+}
+.THeadUsers{
+    background-color: #00A373;
+    color: white;
+    font-family: 'Rufina';
+    padding: 10px 15px;
+}
+.THrows{
+    padding: 10px 15px;
+    font-family: 'Rufina';
+}
+.TdbodyUser{
+    font-family: 'Rufina';
+    padding: 10px 15px;
+}
+.TrbodyUser:hover{
+    background-color: #fff;
+    border-top: #0008A0 solid 2px;
+    border-bottom: #0008A0 solid 2px;
+}
+.DivTableRegister{
+    margin: 10px 0px 10px 0px;
+    background-color: #eee;
+    border-radius: 16px;
+    border: 5px #00A884 solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.DivConTableRegister{
+    margin: 10px 2px 10px 2px;
+}
+.ModalBody{
+    width: 300px;
+    border-top: red 5px solid;
+    border-left: red 5px solid;
+    border-radius: 16px;
+}
+.modalmargin{
+    margin: 10px;
+}
+.ModalBodyFilter{
+    width: fit-content;
+    border-top: red 5px solid;
+    border-left: red 5px solid;
+    border-radius: 16px;
+}
+.ModalBodyAlerts{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+.ModalTitle{
+    background-color: #247;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 16px 0px 0px;
+}
+.ModalText{
+    background-color: #fff;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 0px 0px 16px 0px;
+}
